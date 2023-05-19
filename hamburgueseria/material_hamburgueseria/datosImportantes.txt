@@ -1,0 +1,14 @@
+Valores para la practica
+
+@import url('https://fonts.googleapis.com/css2?family=Handlee&family=Montserrat:wght@400;700&display=swap');
+
+font-family: 'Handlee', cursive; 
+font-family: 'Montserrat', sans-serif; 400, 700
+color-principal: #fa573a
+color-azul:#21242e;
+Anchomaximo : 1100px
+Breakpoints 
+ - 600px
+ - 768px
+ - 1004px
+
