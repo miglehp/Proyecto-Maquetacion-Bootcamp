@@ -231,20 +231,20 @@ main section h2 span{
     color: var(--colorprincipal);
 }
 
-main section .underline{
+.underline {
     position: relative;
     width: 6.25rem;
     margin: 0 auto;
 }
 
-main section .underline hr{
+.underline hr{
     position: absolute;
     width: 100%;
     top: -2px;
     border-color: var(--colorprincipal);
 }
 
-main section .underline span{
+.underline span{
     text-align: center;
     display: block;
     color: var(--colorprincipal);
@@ -354,37 +354,19 @@ main #aboutus .imagen:hover :is(.marco, .marco img){
 }
 
 .blog-title {
+    font-size: 2rem;
     width: 100%;
     text-align: center;
     font-family: var(--fuentetitulos);
+    margin-top: 5rem;
 }
 
 .blog-title h2 {
- font-size: 2rem;
+ font-size: 3rem;
 }
 
 .blog-title h2 span {
     color: var(--colorprincipal);
-}
-
-.blog-title .underline {
-    position: relative;
-    width: 6.25rem;
-    margin: 0 auto;
-}
-
-.blog-title .underline hr {
-    position: absolute;
-    width: 100%;
-    top: -2px;
-    border-color: var(--colorprincipal);
-}
-
-.blog-title .underline span {
-    text-align: center;
-    display: block;
-    color: var(--colorprincipal);
-    font-weight: 700;
 }
 
 .blog-articles-container{
@@ -457,7 +439,137 @@ main #aboutus .imagen:hover :is(.marco, .marco img){
 
 /* inicio menú */
 
+.menu-container{
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #161616;
+    color: #ffffff;
+}
 
+.menu-title {
+    font-size: 2rem;
+    width: 100%;
+    text-align: center;
+    font-family: var(--fuentetitulos);
+    margin-top: 5rem;
+}
+
+.menu-title h2 {
+    font-size: 3rem;
+}
+
+.menu-title span {
+    color: var(--colorprincipal);
+}
+
+.menu-columns-container {
+    display: flex;
+    margin: 0 15vw;
+}
+
+.menu-column-1 {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menu-column-1-nav {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.menu-column-1-nav a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.menu-nav-item {
+    padding: 1rem;
+    border-radius: 0.5rem;
+    width: 20rem;
+}
+
+.menu-nav-item:hover , .selected {
+    background-color: var(--colorprincipal);
+}
+
+.menu-column-2 {
+    flex-grow: 2;
+}
+
+.menu-colum-1-offer {
+    display: flex;
+    flex-direction: column;
+    width: 20rem;
+}
+
+.menu-colum-1-offer h3 {
+    font-size: 2rem;
+    line-height: 3rem;
+}
+
+.menu-colum-1-offer hr {
+    width: 5rem;
+    margin-left: 0;
+    border-color: var(--colorprincipal);
+}
+
+.menu-colum-1-offer p {
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+    color: #dfdfdf;
+}
+
+.product-card {
+display: flex;
+padding: 2rem;
+}
+
+.product-card-img {
+    flex-grow: 1;
+}
+.product-card-img img {
+    width: 12.5rem;
+}
+
+.product-card-text {
+    flex-grow: 5;
+    position: relative;
+}
+
+.product-card-title {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.product-card-price {
+    color: var(--colorprincipal);
+    font-size: 2rem;
+    font-weight: 600;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.product-card-description {
+    font-size: 1.5rem;
+    color: #dfdfdf;
+    margin-bottom: 1rem;
+}
+
+.product-card-link {
+    color: var(--colorprincipal);
+}
+
+.product-card-link a {
+    text-decoration: none;
+    color: #fa573a;
+}
 
 /* final menú */
 
