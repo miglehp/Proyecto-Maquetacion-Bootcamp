@@ -344,6 +344,123 @@ main #aboutus .imagen:hover :is(.marco, .marco img){
 }
 /* fin about us */
 
+/* inicio blog */
+
+.blog-container {
+    width: 100vw;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.blog-title {
+    width: 100%;
+    text-align: center;
+    font-family: var(--fuentetitulos);
+}
+
+.blog-title h2 {
+ font-size: 2rem;
+}
+
+.blog-title h2 span {
+    color: var(--colorprincipal);
+}
+
+.blog-title .underline {
+    position: relative;
+    width: 6.25rem;
+    margin: 0 auto;
+}
+
+.blog-title .underline hr {
+    position: absolute;
+    width: 100%;
+    top: -2px;
+    border-color: var(--colorprincipal);
+}
+
+.blog-title .underline span {
+    text-align: center;
+    display: block;
+    color: var(--colorprincipal);
+    font-weight: 700;
+}
+
+.blog-articles-container{
+    display: flex;
+    padding: 3rem;
+    margin: 0 10vw;
+}
+
+.blog-article-img{
+    position: relative;
+    padding: 2rem;
+}
+
+.article-date-overlay {
+        position: absolute;
+        top: 2rem;
+        right: 0px;
+        bottom: 0px;
+        left: 2rem;
+        padding: 1.25rem;
+        width: 7.5rem;
+        height: 7.5rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        font-size: 2rem;
+        font-weight: 600;
+        color: #ffffff;
+        background-color: var(--colorprincipal);
+        opacity: 0.85;
+}
+
+.blog-article-title {
+    padding-left: 2rem;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.blog-article-autor{
+    color: var(--colorprincipal);
+    font-weight: 600;
+    font-size: 1.5rem;
+    padding-left: 2rem;
+    margin-bottom: 1rem;
+}
+
+.blog-article-content{
+    color: #666666;
+    font-weight: 500;
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+    padding-left: 2rem;
+    margin-bottom: 1rem;
+}
+
+.blog-article-link {
+    padding-left: 2rem;
+    color: var(--colorprincipal);
+    font-size: 1.2rem;
+}
+
+.blog-article-link a {
+    text-decoration: none;
+    color: var(--colorprincipal);
+    font-weight: 600;
+}
+
+/* final blog */
+
+/* inicio menú */
+
+
+
+/* final menú */
+
 /* inicio mediqueries */
 @media(min-width: 48em){
     header .nav-top a i{
